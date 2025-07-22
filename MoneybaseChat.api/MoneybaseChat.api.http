@@ -1,0 +1,6 @@
+@MoneybaseChat.api_HostAddress = http://localhost:5224
+
+GET {{MoneybaseChat.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

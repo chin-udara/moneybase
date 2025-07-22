@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FpQOmD3hiY4U4lJHe+OlQgSIKL3li10xXakD1pMmqKc=",
+  "Source": "MoneybaseChat.api",
+  "BasePath": "_content/MoneybaseChat.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

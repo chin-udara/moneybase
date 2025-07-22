@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneybaseChat.api", "MoneybaseChat.api\MoneybaseChat.api.csproj", "{65A04C93-B3C7-4390-B799-B0C2CB04E532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneybaseChat.application", "MoneybaseChat.application\MoneybaseChat.application.csproj", "{BA2E7287-D1F6-4A59-99A7-5DE9005F4D4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneybaseChat.domain", "MoneybaseChat.domain\MoneybaseChat.domain.csproj", "{C0411292-E911-44A3-B154-0B6021F754DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneybaseChat.infrastructure", "MoneybaseChat.infrastructure\MoneybaseChat.infrastructure.csproj", "{E459C877-D0F1-4C29-BF61-93A61978792D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1A40F5A4-37DE-47F3-8C05-BCA875076CED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneybaseChat.application.tests", "tests\MoneybaseChat.application.tests\MoneybaseChat.application.tests.csproj", "{8C65E878-BE0A-4D5F-8BDA-87E2F0664705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneybaseChat.domain.tests", "tests\MoneybaseChat.domain.tests\MoneybaseChat.domain.tests.csproj", "{A43A7197-59D8-439E-B8E3-0F9467D7BC5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65A04C93-B3C7-4390-B799-B0C2CB04E532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A04C93-B3C7-4390-B799-B0C2CB04E532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A04C93-B3C7-4390-B799-B0C2CB04E532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A04C93-B3C7-4390-B799-B0C2CB04E532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2E7287-D1F6-4A59-99A7-5DE9005F4D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2E7287-D1F6-4A59-99A7-5DE9005F4D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2E7287-D1F6-4A59-99A7-5DE9005F4D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2E7287-D1F6-4A59-99A7-5DE9005F4D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0411292-E911-44A3-B154-0B6021F754DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0411292-E911-44A3-B154-0B6021F754DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0411292-E911-44A3-B154-0B6021F754DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0411292-E911-44A3-B154-0B6021F754DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E459C877-D0F1-4C29-BF61-93A61978792D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E459C877-D0F1-4C29-BF61-93A61978792D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E459C877-D0F1-4C29-BF61-93A61978792D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E459C877-D0F1-4C29-BF61-93A61978792D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C65E878-BE0A-4D5F-8BDA-87E2F0664705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C65E878-BE0A-4D5F-8BDA-87E2F0664705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C65E878-BE0A-4D5F-8BDA-87E2F0664705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C65E878-BE0A-4D5F-8BDA-87E2F0664705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43A7197-59D8-439E-B8E3-0F9467D7BC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43A7197-59D8-439E-B8E3-0F9467D7BC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43A7197-59D8-439E-B8E3-0F9467D7BC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43A7197-59D8-439E-B8E3-0F9467D7BC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C65E878-BE0A-4D5F-8BDA-87E2F0664705} = {1A40F5A4-37DE-47F3-8C05-BCA875076CED}
+		{A43A7197-59D8-439E-B8E3-0F9467D7BC5B} = {1A40F5A4-37DE-47F3-8C05-BCA875076CED}
+	EndGlobalSection
+EndGlobal

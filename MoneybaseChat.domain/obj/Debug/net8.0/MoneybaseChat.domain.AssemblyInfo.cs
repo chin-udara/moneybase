@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoneybaseChat.domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06fc120d236bb9bd745ab5775b56ffb386c971f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoneybaseChat.domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoneybaseChat.domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
