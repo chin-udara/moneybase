@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoneybaseChat.application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06fc120d236bb9bd745ab5775b56ffb386c971f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d35dfc7230fbf048c925c7d0bee1b4064f95eead")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoneybaseChat.application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoneybaseChat.application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

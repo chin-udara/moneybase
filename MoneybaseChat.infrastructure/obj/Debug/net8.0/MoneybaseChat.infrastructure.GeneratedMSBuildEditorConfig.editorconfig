@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MoneybaseChat.infrastructure
-build_property.ProjectDir = /home/udara/Interviews/MoneyBase/source/MoneybaseChat.infrastructure/
+build_property.ProjectDir = /home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.infrastructure/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

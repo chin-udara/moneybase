@@ -2,9 +2,9 @@ using MoneybaseChat.domain.enums;
 
 namespace MoneybaseChat.domain.entities;
 
-public class Agent(string name, Seniority seniority)
+public class Agent(int id, string name, Seniority seniority)
 {
-    public int Id { get; private set; }
+    public int Id { get; private set; } = id;
     public string Name { get; private set; } = name;
     public Seniority Seniority { get; private set; } = seniority;
     public int Team { get; private set; }
@@ -37,5 +37,10 @@ public class Agent(string name, Seniority seniority)
     public void AssignChat(ChatRequest chatRequest)
     {
         ChatRequests.Add(chatRequest);
+    }
+
+    public void SetTeam(Team team)
+    {
+        Team = team.Id;
     }
 }

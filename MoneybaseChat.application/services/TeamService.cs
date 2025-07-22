@@ -12,7 +12,7 @@ public class TeamService(ITeamRepository teamRepository, IUnitOfWork unitOfWork,
 
     public async Task<Guid?> Create(string name, TimeOnly shiftStartTime, int shiftDurationInMinutes, bool isOverflowTeam, CancellationToken cancellationToken)
     {
-        var newTeam = new Team(Guid.NewGuid(), name, shiftStartTime, shiftDurationInMinutes, isOverflowTeam);
+        var newTeam = new Team(0,Guid.NewGuid(), name, shiftStartTime, shiftDurationInMinutes, isOverflowTeam);
         // persist new team
         await unitOfWork.CommitAsync(cancellationToken);
         // public team so that a consumer can be brought up

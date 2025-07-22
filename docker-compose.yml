@@ -10,6 +10,9 @@ services:
           condition: service_healthy
       rabbitmq:
           condition: service_healthy
+    networks:
+      moneybase:
+        ipv4_address: 172.20.0.10
 
   mariadb:
     image: mariadb:10
@@ -26,6 +29,9 @@ services:
       interval: 5s
       timeout: 10s
       retries: 10
+    networks:
+      moneybase:
+        ipv4_address: 172.20.0.11
 
   rabbitmq:
     image: rabbitmq:3-management
@@ -40,4 +46,14 @@ services:
       test: ["CMD", "rabbitmq-diagnostics", "-q", "check_port_connectivity"]
       interval: 5s
       timeout: 10s
-      retries: 5
+      retries: 10
+    networks:
+      moneybase:
+        ipv4_address: 172.20.0.12
+
+networks:
+  moneybase:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

@@ -3,9 +3,9 @@ using MoneybaseChat.domain.enums;
 
 namespace MoneybaseChat.domain.entities;
 
-public class Team(Guid identifier, string Name, TimeOnly ShiftStartTime, int shiftDurationInMinutes, bool isOverflowTeam)
+public class Team(int id, Guid identifier, string Name, TimeOnly ShiftStartTime, int shiftDurationInMinutes, bool isOverflowTeam)
 {
-    public int Id { get; private set; }
+    public int Id { get; private set; } = id;
     public Guid Identifier { get; private set; } = identifier;
     public string Name { get; private set; } = Name;
     public TimeOnly ShiftStartTime { get; private set; } = ShiftStartTime;

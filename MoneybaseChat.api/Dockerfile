@@ -8,6 +8,8 @@ COPY MoneybaseChat.api/*.csproj ./MoneybaseChat.api/
 COPY MoneybaseChat.application/*.csproj ./MoneybaseChat.application/
 COPY MoneybaseChat.domain/*.csproj ./MoneybaseChat.domain/
 COPY MoneybaseChat.infrastructure/*.csproj ./MoneybaseChat.infrastructure/
+COPY tests/MoneybaseChat.domain.tests/*.csproj ./tests/MoneybaseChat.domain.tests/
+COPY tests/MoneybaseChat.application.tests/*.csproj ./tests/MoneybaseChat.application.tests/
 
 RUN dotnet restore
 

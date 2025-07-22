@@ -3501,11 +3501,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/udara/Interviews/MoneyBase/source/MoneybaseChat.infrastructure/MoneybaseChat.infrastructure.csproj",
+      "projectUniqueName": "/home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.infrastructure/MoneybaseChat.infrastructure.csproj",
       "projectName": "MoneybaseChat.infrastructure",
-      "projectPath": "/home/udara/Interviews/MoneyBase/source/MoneybaseChat.infrastructure/MoneybaseChat.infrastructure.csproj",
+      "projectPath": "/home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.infrastructure/MoneybaseChat.infrastructure.csproj",
       "packagesPath": "/home/udara/.nuget/packages/",
-      "outputPath": "/home/udara/Interviews/MoneyBase/source/MoneybaseChat.infrastructure/obj/",
+      "outputPath": "/home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/udara/.nuget/NuGet/NuGet.Config"
@@ -3523,8 +3523,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/udara/Interviews/MoneyBase/source/MoneybaseChat.application/MoneybaseChat.application.csproj": {
-              "projectPath": "/home/udara/Interviews/MoneyBase/source/MoneybaseChat.application/MoneybaseChat.application.csproj"
+            "/home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.application/MoneybaseChat.application.csproj": {
+              "projectPath": "/home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.application/MoneybaseChat.application.csproj"
             }
           }
         }

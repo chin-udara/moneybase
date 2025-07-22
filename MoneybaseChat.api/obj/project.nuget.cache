@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Czwgvogz26L6WEerBShGbq/d0wXHUXuQ8MwmSIOwEiidg/3tdY1a7P0AKTovg3/i3v2fTDpuDdwBeuK+Ys4Piw==",
+  "dgSpecHash": "S+viwCe/HE0RSNT4tlPXwIsMa7E7rqhqx37cPHWCag6XAZXs+a/yrfyxeUyR0cKNG+9bjm+cFEiQdnOBs1DQcQ==",
   "success": true,
-  "projectFilePath": "/home/udara/Interviews/MoneyBase/source/MoneybaseChat.api/MoneybaseChat.api.csproj",
+  "projectFilePath": "/home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.api/MoneybaseChat.api.csproj",
   "expectedPackageFiles": [
     "/home/udara/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/udara/.nuget/packages/microsoft.aspnetcore.openapi/8.0.17/microsoft.aspnetcore.openapi.8.0.17.nupkg.sha512",

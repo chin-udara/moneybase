@@ -3991,11 +3991,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/udara/Interviews/MoneyBase/source/MoneybaseChat.api/MoneybaseChat.api.csproj",
+      "projectUniqueName": "/home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.api/MoneybaseChat.api.csproj",
       "projectName": "MoneybaseChat.api",
-      "projectPath": "/home/udara/Interviews/MoneyBase/source/MoneybaseChat.api/MoneybaseChat.api.csproj",
+      "projectPath": "/home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.api/MoneybaseChat.api.csproj",
       "packagesPath": "/home/udara/.nuget/packages/",
-      "outputPath": "/home/udara/Interviews/MoneyBase/source/MoneybaseChat.api/obj/",
+      "outputPath": "/home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/udara/.nuget/NuGet/NuGet.Config"
@@ -4013,11 +4013,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/udara/Interviews/MoneyBase/source/MoneybaseChat.application/MoneybaseChat.application.csproj": {
-              "projectPath": "/home/udara/Interviews/MoneyBase/source/MoneybaseChat.application/MoneybaseChat.application.csproj"
+            "/home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.application/MoneybaseChat.application.csproj": {
+              "projectPath": "/home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.application/MoneybaseChat.application.csproj"
             },
-            "/home/udara/Interviews/MoneyBase/source/MoneybaseChat.infrastructure/MoneybaseChat.infrastructure.csproj": {
-              "projectPath": "/home/udara/Interviews/MoneyBase/source/MoneybaseChat.infrastructure/MoneybaseChat.infrastructure.csproj"
+            "/home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.infrastructure/MoneybaseChat.infrastructure.csproj": {
+              "projectPath": "/home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.infrastructure/MoneybaseChat.infrastructure.csproj"
             }
           }
         }

@@ -18,13 +18,13 @@ public class InitiateChatServiceTests
         var unitOfWork = new Mock<IUnitOfWork>();
         var queueService = new Mock<IQueueService>();
 
-        var teamA = new Team(Guid.NewGuid(), "TeamA", new TimeOnly(0,0,0), 480, false);
-        teamA.AddAgent(new("Matilda", Seniority.Lead));
-        teamA.AddAgent(new("Eric", Seniority.Junior));
+        var teamA = new Team(1, Guid.NewGuid(), "TeamA", new TimeOnly(0,0,0), 480, false);
+        teamA.AddAgent(new(1,"Matilda", Seniority.Lead));
+        teamA.AddAgent(new(2,"Eric", Seniority.Junior));
 
-        var teamB = new Team(Guid.NewGuid(), "TeamB", new TimeOnly(0,0,0), 480, false);
-        teamB.AddAgent(new("Jason", Seniority.Lead));
-        teamB.AddAgent(new("Michelle", Seniority.Mid));
+        var teamB = new Team(2, Guid.NewGuid(), "TeamB", new TimeOnly(0,0,0), 480, false);
+        teamB.AddAgent(new(3,"Jason", Seniority.Lead));
+        teamB.AddAgent(new(4,"Michelle", Seniority.Mid));
 
         var allTeams = new List<Team> { teamA, teamB };
 
@@ -47,13 +47,13 @@ public class InitiateChatServiceTests
         var unitOfWork = new Mock<IUnitOfWork>();
         var queueService = new Mock<IQueueService>();
 
-        var teamA = new Team(Guid.NewGuid(), "TeamA", new TimeOnly(0,0,0), 480, false);
-        teamA.AddAgent(new("Matilda", Seniority.Lead));
-        teamA.AddAgent(new("Eric", Seniority.Junior));
+        var teamA = new Team(1, Guid.NewGuid(), "TeamA", new TimeOnly(0,0,0), 480, false);
+        teamA.AddAgent(new(1,"Matilda", Seniority.Lead));
+        teamA.AddAgent(new(2,"Eric", Seniority.Junior));
 
-        var teamB = new Team(Guid.NewGuid(), "TeamB", new TimeOnly(0,0,0), 480, false);
-        teamB.AddAgent(new("Jason", Seniority.Lead));
-        teamB.AddAgent(new("Michelle", Seniority.Mid));
+        var teamB = new Team(2, Guid.NewGuid(), "TeamB", new TimeOnly(0,0,0), 480, false);
+        teamB.AddAgent(new(3,"Jason", Seniority.Lead));
+        teamB.AddAgent(new(4,"Michelle", Seniority.Mid));
 
         var allTeams = new List<Team> { teamA, teamB };
 

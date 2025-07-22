@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N1fk0Q4Olpn4NTTTRgGtHNjlGorVNqSQRFZZwSyLUm92iY4YfBOalDTcTWMiSUsRlqd5mnGgViMPc7bcy2QQYg==",
+  "dgSpecHash": "VS9xLnMF4o+O+Y1R5FkPdHkHq6mRVwHGqEJ1ac7C6bKg3vd0omZVXIRp8ywwLXnd6cRYTG7hNgzGGjq0JkfRaA==",
   "success": true,
-  "projectFilePath": "/home/udara/Interviews/MoneyBase/source/MoneybaseChat.infrastructure/MoneybaseChat.infrastructure.csproj",
+  "projectFilePath": "/home/udara/Interviews/MoneyBase/MoneybaseChatApplication/MoneybaseChat.infrastructure/MoneybaseChat.infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/udara/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/udara/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
