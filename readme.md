@@ -1,8 +1,8 @@
 # Moneybase - Take home assignment
 
-Candidate name: Udara de Silva
-Attempted on: 20th July 2025
-Completed on: 23rd July 2025
+Candidate name: Udara de Silva  
+Attempted on: 20th July 2025  
+Completed on: 23rd July 2025  
 
 ## How to run?
  - execute ```docker compose up --build```
