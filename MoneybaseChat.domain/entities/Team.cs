@@ -45,6 +45,20 @@ public class Team(int id, Guid identifier, string Name, TimeOnly ShiftStartTime,
 
     public bool AssignChat(ChatRequest chatRequest)
     {
+        // sort agents by seniority
+        var sortedAgents = Agents.Where(a => a.AvailableCapacity > 0).OrderBy(t => t.Seniority).ThenByDescending(t => t.AvailableCapacity).ToList();
+        if (sortedAgents.Count > 0)
+            sortedAgents.First().AssignChat(chatRequest);
+        else
+            return false;
+        return true;
+
+        /*
+        
+        This following piece of code has been killing me since I found out I wrote it!
+        I was thinking the ordering should not happen based on the agents seniority because the numbers assigned were not linear!
+        
+
         // get juniors with highest available capacity
         var junior = Agents.Where(a => a.Seniority == Seniority.Junior && a.AvailableCapacity > 0).OrderByDescending(a => a.AvailableCapacity).FirstOrDefault();
         if (junior is null)
@@ -73,5 +87,6 @@ public class Team(int id, Guid identifier, string Name, TimeOnly ShiftStartTime,
             junior.AssignChat(chatRequest);
 
         return true;
+        */
     }
 }
